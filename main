@@ -12,7 +12,6 @@ mkdir -p out_dir_report
 
 # singularity exec -e docker://brainlife/mne-freesurfer:7.3.2-1.2.1 python3 main.py
 
-echo ${FS_LICENSE}
 singularity  exec --env FS_LICENSE=${FS_LICENSE} -e docker://brainlife/mne-freesurfer:7.3.2-1.2.1 python3 main.py
 
 # singularity exec -e docker://brainlife/mne-freesurfer:7.3.2-1.2.1 mne watershed_bem
