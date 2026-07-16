@@ -1,14 +1,3 @@
 {
-    "subject": "S01",
-    "subjects_dir":"None",
-    "overwrite": false, 
-    "volume":"T1", 
-    "atlas":false, 
-    "gcaatlas":false, 
-    "preflood":"None", 
-    "show":false, 
-    "copy":true, 
-    "T1":"None", 
-    "brainmask":"ws.mgz", 
-    "verbose":"None"
+    "output": "in_dir/freesurfer"
 }
