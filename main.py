@@ -64,7 +64,7 @@ report.add_bem(
 )
 
 # == SAVE REPORT ==
-report.save(os.path.join('out_report', 'report.html'), overwrite=True)
+report.save(os.path.join('out_report', 'report.html'), overwrite=True, verbose=False)
 
 # == CREATE PRODUCT.JSON ==
 product_items = []
