@@ -10,8 +10,8 @@ mkdir -p out_dir_report
 
 # export SUBJECTS_DIR="$(dirname "$out_dir")"
 
-# singularity exec -e docker://brainlife/mne-freesurfer:7.3.2-1.2.1 python3 main.py
+# singularity exec -e docker://brainlifemeeg/mne-freesurfer:1.12.1-7.4.1 python3 main.py
 
-singularity  exec --env FS_LICENSE=${FS_LICENSE} -e docker://brainlife/mne-freesurfer:7.3.2-1.2.1 python3 main.py
+singularity  exec --env FS_LICENSE=${FS_LICENSE} -e docker://brainlifemeeg/mne-freesurfer:1.12.1-7.4.1 python3 main.py
 
-# singularity exec -e docker://brainlife/mne-freesurfer:7.3.2-1.2.1 mne watershed_bem
+# singularity exec -e docker://brainlifemeeg/mne-freesurfer:1.12.1-7.4.1 mne watershed_bem
